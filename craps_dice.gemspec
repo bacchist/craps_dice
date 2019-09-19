@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A class representing a pair of dice for playing craps}
   spec.homepage      = "https://github.com/bacchist/craps_dice"
 
-  spec.metadata["allowed_push_host"] = "http://mygemserver.com"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/bacchist/craps_dice"

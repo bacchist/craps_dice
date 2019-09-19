@@ -1,7 +1,7 @@
 require "yaml"
 require "craps_dice/version"
 
-ROLL_NAMES = YAML.load(File.read("/yaml/roll.yml"))
+ROLL_NAMES = YAML.load(File.read(File.expand_path("../yaml/roll.yml", __FILE__)))
 
 class Roll < Array
   def initialize
